@@ -1,0 +1,335 @@
+  body{margin: 0px;}
+  
+  .color2{
+    background-color: #d1e1df;
+  }
+  
+.position{
+    
+    display:flex;
+    flex-direction:row;
+    align-items:center; 
+    
+}
+.position:hover {
+  color: black;
+}
+.position1{
+    
+    display:flex;
+    
+    
+}
+
+.flex{
+  height:50px ;
+  /*border : 1px solid black;*/
+  display:flex;
+  justify-content: space-between;
+  align-items:center;  
+  font-size: 12px;
+  color:white; 
+}
+.flex:hover{
+  background-color:#fafafa;
+  color: black;
+}
+  .flex1{
+     
+      display:flex;
+      justify-content:space-around;
+      align-items:center;
+     
+  }
+  .flex2{
+     
+     height:430px;
+    /*border : 1px solid black;*/
+    display:flex;
+    flex-direction:row;
+}
+ .flex2 h2 {
+    color :white;
+
+  
+}
+.flex3{
+     
+   height:160px;
+   /*border : 1px solid black;*/
+   display:flex;
+   justify-content: space-around;
+   margin: 90px;
+}
+
+.flex3 p {
+    width:150px;
+    color:#a4aeb4;
+    font-weight:bold;
+    font-family: sans-serif;
+}
+.flex4{
+    height: 350px;
+    display:flex;
+    /*justify-content: space-between;*/
+    margin: 90px;
+ }
+ .flex4 div{
+  margin: 5px;
+ }
+ .flex4 p {
+    justify-content: space-between;
+    color:#404444;
+    font-size: 14px;
+    text-align:jstify;
+    margin: 5px;
+ }  
+ .imgg1 {
+  width: 270px;
+  height: 200px;
+  background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)) , url("image1.jpg");
+  background-size: cover;
+  
+}
+.imgg1:hover {
+  background: linear-gradient(rgba(0, 180, 211, 0.7),rgba(0, 180, 211, 0.7)) , url("image1.jpg");
+  background-size: cover;
+}
+.imgg2 {
+  width: 280px;
+  height: 200px;
+  background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)) , url("image2.png");
+  background-size: cover;
+  
+}
+.imgg2:hover {
+  background: linear-gradient(rgba(70, 164, 140, 0.7),rgba(70, 164, 140, 0.7)) , url("image2.png");
+  background-size: cover;
+}
+.imgg3 {
+  width: 270px;
+  height: 200px;
+  background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)) , url("image3.jpg");
+  background-size: cover;
+  
+}
+.imgg3:hover {
+  background: linear-gradient(rgba(204, 167, 174, 0.7),rgba(204, 167, 174, 0.7)) , url("image3.jpg");
+  background-size: cover;
+}
+.img {
+   
+	width: 20px;
+    height: 20px;
+    flex:1;
+}
+.Swhite {
+    color :white;
+    text-align:jstify;
+}
+.spadding{
+    padding: 30px;
+}
+.block1 {
+    background-color:#fed24b;
+    
+    flex:1;
+    padding: 30px;
+    
+}
+.block2 {
+    background-color:#50c2a0;
+    
+    flex:1;
+    padding: 30px;
+}
+.block3 {
+    background-color:#3eaaf5;
+    flex:1;
+    padding: 30px;
+}
+  .stucture {
+     display: flex;
+     flex-direction:column;
+     
+  }
+
+
+  .button {
+    height: 20px;
+     text-align:center;
+     background:transparent;
+     /*color:white;*/
+     border-radius: 6px;
+     padding: 10px;
+     /*border: 2px solid black;*/
+     margin: 10px;
+  }
+  .buttonVideo {
+    height: 20px;
+    width: 100px;
+     text-align:center;
+     background: white;
+     color:black;
+     border-radius: 6px;
+     padding: 10px;
+     border: 1px solid white;
+     margin: 10px;
+  }
+  .buttonVideo:hover{
+    border-bottom-width:3px;
+    border-bottom-color:#b4beb6;
+  }
+  .button1 {
+     display:block;
+     width:80px;
+     height: 30px;
+     line-height:30px;
+     text-align:center;
+     vertical-align: middle;
+     background:white;
+     color:black;
+     border-radius: 6px;
+     margin:10px;
+     border: 1px solid #b4beb6;
+  }
+  .button1:hover {
+    transform: translateY(-2px);
+    /*border-bottom-width:3px;*/
+    /*box-shadow: */
+  }
+  .button1 a{
+    text-decoration: none;
+    color: black;
+  }
+  .button2 {
+    
+    display:block;
+     width:80px;
+     height: 30px;
+     line-height:30px;
+     text-align:center;
+     vertical-align: middle;
+     background:#3eaaf5;
+     color:white;
+     border-radius: 6px;
+     margin:10px;
+     border: 1px solid #2e97df;
+  }
+  .button2:hover {
+    transform: translateY(-2px);
+    border-bottom-color:#b4beb6;
+
+  }
+  .button2 a {
+    text-decoration: none;
+    color: white;
+  }
+  .button3 {
+    height: 30px;
+    width: 130px;
+     text-align:center;
+     background: transparent;
+     color:black;
+     border-radius: 4px;
+     padding: 10px;
+     border: 2px solid white;
+     margin: 10px;
+  }
+  .button3 a {
+    text-decoration: none;
+    color: black;
+  }
+  .button3:hover {
+    background:white;
+  }
+  .color{
+    background-color: #ca95a5
+  }
+                  /****************************footer**********************************/
+
+
+
+  .stylefooter1 {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height:50px ;
+    background-color: #efefef;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+  } 
+  .stylefooter1 a {
+    color: #98999a
+  }
+.stylefooter2 {
+    padding: 50px;
+    display: flex;
+    justify-content:space-between;
+    height:130px ;
+    background-color: #2a2d36;
+    color: white;
+    font-size: 12px;
+  } 
+  .stylefooter2 p {
+    width: 200px;
+    font-size: 18px;
+  }
+  .stylefooter2 a:hover {
+    text-decoration: underline;
+  }
+  .stylefooter2 a 
+  {
+    text-decoration: none;
+    color: #6eb97b;
+  }
+  .stylefooter3 {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height:50px ;
+    background-color: #2a2d36;
+    text-align: center;
+    color: #958a8a;
+    font-size: 12px;
+  } 
+  .stylefooter3 a {
+    color: #958a8a;
+  }
+  .stylefooter3 a:hover {
+    color: #309b59;
+  }
+  .stylefooter4 {
+    color: #98999a;
+  }
+  .stylefooter5 {
+    padding: 10px;
+    color: white;
+  }
+  .stylefooter5 a {
+
+    text-decoration: none;
+    color: white;
+  }
+  .stylefooter5 a:hover{
+    text-decoration: none;
+    transform: translateY(-2px);
+    font-weight:bold; 
+  }
+  .stylefooter6 {
+    text-decoration: none;
+    color: #3eaaf5;
+  }
+  .stylefooter6 a {
+    text-decoration: none;
+    color: #3eaaf5;
+  }
+  .stylefooter7 {
+    text-decoration: none;
+    color: red;
+  }
+  .stylefooter7 a {
+    text-decoration: none;
+    color: red;
+  }
